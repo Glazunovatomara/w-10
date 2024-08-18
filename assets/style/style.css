@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.main__gallery {
+    display: flex;
+    flex-direction:column;
+    gap: 20px;
+}
+.main__gallery_title {
+    text-align: center;
+}
+.main__gallery_images {
+    display: flex;
+    justify-content: center;
+}
+.main__gallery_images-image {
+    max-width: 500px;
+    width: 100%;
+    max-height: 660px;
+    height: 100%;
+}
+
+#img2,
+#img3 {
+    display: none;
+}
+.main__gallery_images-image:active {
+    display: flex;
+}
+.main__gallery_buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.main__gallery_buttons-button {
+    max-width: 100px;
+    width: 100%;
+    padding: 10px;
+    background-color: #640ed1ed;
+    border-radius: 9px;
+    border: none;
+    color: #ffffff;
+    text-transform: uppercase;
+    cursor:pointer;
+}
+.main__gallery_buttons-button:hover {
+    background-color: #2dbae4;
+}
